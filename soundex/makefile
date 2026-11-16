@@ -1,2 +1,2 @@
-soundex : main.cpp soundex.cpp
-	g++ main.cpp soundex.cpp -o soundex
+main : main.cpp soundex.cpp
+	g++ main.cpp soundex.cpp -o main
